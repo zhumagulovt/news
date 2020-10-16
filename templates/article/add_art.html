@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+        <input type="text" name="title" placeholder="title"><br>
+        <input type="text" name="content" placeholder="content"><br>
+        <input type="text" name="theme" placeholder="theme">
+        <button type="submit">SUMBIT</button>
+    </form>
+</body>
+</html>
